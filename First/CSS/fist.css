@@ -1,0 +1,123 @@
+/* p{
+    color: blueviolet;
+    font-size: 60px;
+} */
+/* .my-p{
+    color: red;
+    font-size: 40px;
+}
+#pp{
+    color: blue;
+    font-size: 55px;
+} */
+/* ------------------------------------------ */
+/* div{
+    background-color: rebeccapurple;  color name
+    background-color: rgb(0, 255, 255); red gren blue
+    background-color: rgb(60 143 159); 
+    background-image: url(../imgs/Annotation\ 2026-04-04\ 141110.png);
+    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+} */
+/* --------------------------------- */
+/* div{
+    background-image: url(../imgs/Annotation\ 2026-04-04\ 141110.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-position: center center;
+    background-size: contain;
+} */
+
+/*------------------------------------------------*/
+/* div{
+    background-color: wheat;
+    padding: 10px 20px;
+} */
+/*------------------------------------------------*/
+/* div{
+    background-color: violet;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+} */
+    /*------------------------------------------------*/
+/* div{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: blueviolet;
+    margin-top: 10px;
+} */
+
+/*------------------------------------------------*/
+/* div{
+    height: 400px;
+    width: 400px;
+    margin-top: 10px;
+    padding: 20px;
+    background-image: url(../imgs/css-assignment-5-8.png);
+}
+.assign-2-shape-1{
+    background-repeat: no-repeat;
+}
+.assign-2-shape-2{
+    background-repeat: repeat-x;
+}
+.assign-2-shape-3{
+    background-repeat: repeat-y;
+}
+.assign-2-shape-4{
+    background-repeat: repeat;
+} */
+
+/*------------------------------------------------*/
+/* div{
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    background-image: url(../imgs/css-assignment-5-8.png);
+}
+.assign-3-shape-1{
+    background-repeat: no-repeat;
+}
+.assign-3-shape-2{
+    background-repeat: repeat-y;
+    background-position: right;
+}
+.assign-3-shape-3{
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+.assign-3-shape-4{
+    background-repeat: repeat;
+    
+} */
+/*------------------------------------------------*/
+div{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    background-color: blanchedalmond;
+    background-image: url(../imgs/css-assignment-5-8.png);
+}
+.assign-4-shape-1{
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+.assign-4-shape-2{
+    background-repeat: repeat-y;
+    background-size: 80%;
+    background-position: right;
+}
+.assign-4-shape-3{
+    background-repeat: repeat-x;
+    background-size: 80%;
+    background-position: bottom;
+}
+.assign-4-shape-4{
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
