@@ -96,7 +96,7 @@
     
 } */
 /*------------------------------------------------*/
-div{
+/* div{
     width: 400px;
     height: 400px;
     margin: 20px;
@@ -120,4 +120,90 @@ div{
 .assign-4-shape-4{
     background-repeat: no-repeat;
     background-position: bottom right;
+} */
+
+/*------------------------------------------------*/
+/* .test9{
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    background-color: bisque;
+    border: 2px red dashed;
+    border-width: 10px;
+    border-style: double;
+    border-color: violet;
+    outline: 2px red solid;
+} */
+/*------------------------------------------------*/
+/* div{
+    display: inline-block;
+    background-color: thistle;
+    padding: 20px 30px;
+    margin: 40px;
+}
+.shape1{
+    border: 10px red solid;
+    outline: 10px black solid;
+}
+.shape2{
+    border-width: 10px;
+    border-color: blue green;
+    border-style: solid;
+    outline: 10px black solid;
+
+}
+.shape3{
+    border-width: 10px;
+    border-color: red green blue yellow;
+    border-style: dashed;
+    outline: 10px black solid;
+} */
+/* .element-element-1,
+.element-element-2,
+.element-element-3
+{
+    background-color: floralwhite;
+    padding: 15px;
+    margin: 15px;
+    outline: 5px floralwhite solid;
+}
+.element-element-1{
+    border-left: 5px red solid;
+}
+.element-element-2{
+    border-left: 5px red solid;
+    visibility: hidden;
+}
+.element-element-3{
+    border-left: 5px rgb(47, 0, 255) solid;
+} */
+
+/*------------------------------------------------*/
+
+/* .parent .child span{
+    color: red;
+}
+.parent .title{
+    color: royalblue;
+}
+.parent p,
+.title{
+    color: green;
+} */
+div{
+    background-color: brown;
+    padding: 10px;
+    margin: 10px;
+    max-width: 400px;
+    max-height: 85px;
+    width: fit-content;
+    overflow: hidden;
+}
+.aaa{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(254, 240, 255);
+    overflow: auto;
 }
