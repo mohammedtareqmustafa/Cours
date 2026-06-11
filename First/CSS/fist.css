@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    min-height: 3000px;
+}
+
 /* p{
     color: blueviolet;
     font-size: 60px;
@@ -158,7 +163,8 @@
     border-style: dashed;
     outline: 10px black solid;
 } */
-/* .element-element-1,
+/*
+.element-element-1,
 .element-element-2,
 .element-element-3
 {
@@ -190,7 +196,7 @@
 .title{
     color: green;
 } */
-div{
+/* div{
     background-color: brown;
     padding: 10px;
     margin: 10px;
@@ -206,4 +212,351 @@ div{
     margin: 10px;
     background-color: rgb(254, 240, 255);
     overflow: auto;
+} */
+
+/*------------------------------------------------*/
+/* div{
+    background-color: antiquewhite;
+    padding: 15px;
+    margin: auto;
+    font-size: 50px;
+    text-shadow: 2px 2px 0 red,3px 3px 0 blue,5px 5px 0 blueviolet;
+    width: fit-content;
+} */
+
+/* p{
+    padding: 10px;
+    margin: 10px;
+    background-color: antiquewhite;
+    text-align: center;
+    width: fit-content;
+    display: inline-block;
+    max-width: 300px;
+    overflow: auto;
+}
+.one{
+    text-transform: uppercase;
+}
+.two{
+    text-transform: capitalize;
+}
+.three{
+    text-transform: lowercase;
+}
+div{
+    background-color: antiquewhite;
+    text-align: center;
+    direction: rtl;
+    vertical-align: middle;
+    text-decoration: line-through;
+
+}
+a{
+    background-color: black;
+    color: white;
+    display: block;
+    text-decoration: none;
+    width: fit-content;
+    padding: 5px;
+    margin: 10px auto;
+    border-top: 4px red solid;
+    border-radius: 10px;
+
+} */
+/* .test{
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+    text-indent: 10px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    width: 400px;
+    word-break: break-all;
+} */
+/* div{
+    width: 400px;
+    background-color: antiquewhite;
+    padding: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+.my-div{
+    background-color: aqua;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+/*------------------------------------------------*/
+/* body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div{
+    background-color: bisque;
+    padding: 10px;
+    margin: 10px;
+    border: 3px red solid;
+    text-align: center;
+}
+div p{
+    padding: inherit;
+    margin: inherit;
+    border: inherit;
+} */
+/* div{
+    background-color: azure;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    border: 2px rgb(164, 37, 37) solid;
+}
+div p{
+    padding: inherit;
+    margin: inherit;
+    border: inherit;
+} */
+
+/* div p{
+    font-size: 2vw;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+} */
+
+/* .parent{
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.parent div{
+    padding: 10px;
+    background-color: aqua;
+    display: inline-block;
+    width: 21%;
+    float: left;
+}
+.clear{
+    clear: both;
+} */
+ /* ---------------------------------------------------------- */
+
+/* body{
+    margin: 0;
+}
+.parent{
+    background-color: grey;
+    width: 1000px;
+    text-align: center;
+}
+.parent .row1{
+    padding: 10px;
+    margin: 15px ;
+    background-color: wheat;
+}
+.parent .row2 div{
+    background-color: wheat;
+    display: inline-block;
+    margin-left: 15px;
+    padding: 10px 0;
+    width: calc((100% - 60px) / 3);
+    float: left;
+}
+.parent .row3 div{
+    background-color: wheat;
+    display: inline-block;
+    width: calc((100% - 45px) / 2);
+    padding: 10px 0;
+    margin-left: 15px;
+    margin-top: 15px;
+    float: left;
+}
+.parent .row4 div{
+    background-color: wheat;
+    display: inline-block;
+    padding: 10px 0;
+    margin: 15px 0;
+    margin-left: 15px;
+    width: calc((100% - 75px) / 4);
+    float: left;
+}
+
+.clear{
+    clear: both;
+}    */
+    /* ------------------------------------------------- */
+/* div {
+    margin: 20px auto;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: gray; 
+    opacity: 0.5;
+    color: black;
+    width: 300px;
+} */
+/* .parent{
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.parent div{
+    padding: 10px;
+    width: 200px;
+}
+.parent .div-one{
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+}
+.parent .div-two{
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+}
+.test{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 200px;
+    position: sticky;
+    top: 0;
+} */
+
+/* 
+    position
+    -relative
+    -absolute
+    -fixed
+*/
+/* div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.green{
+    background-color: green;
+    z-index: 2;
+    top: 40px;
+    left: 40px;
+}
+.red{
+    background-color: red;
+    z-index: 3;
+    top: 60px;
+    left: 60px;
+}
+.blue{
+    background-color: blue;
+    z-index: 1;
+    top: 20px;
+    left: 20px;
+}
+.black{
+    background-color: black;
+    z-index: 0;
+    top: 40px;
+    left: 20px;
+} */
+
+/* .parent{
+    width: 400px;
+}
+.parent li{
+    margin: 10px;
+    background-color: #EEE;
+    list-style-position:inside ;
+}
+.parent .first-li ol li{
+    background-color: white;
+}
+.parent .secand-li ol li {
+    background-color: white;
+}
+.parent .therd-li ul li{
+    background-color: white;
+}
+.parent ol{
+    padding-left: 0;
+} */
+div{
+    background-color: #EEE;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    word-spacing: 2px;
+    line-height: 1.6;
+    border-width: 2px;
+    border-color: red blue;
+    border-style: solid;
+    position: relative;
+
+}
+div span{
+    padding: 0 5px;
+    background-color: #007eff;
+    color: white;
+    position: absolute;
+}
+div .top-left{
+    top: -13px;
+    left: -10px;
+    border-right: 2px red solid;
+}
+div .bottom-left {
+    bottom: -13px;
+    left: -10px;
+    border-right: 2px red solid;
+}
+div .top-right {
+    top: -13px;
+    right: -10px;
+    border-left: 2px red solid;
+}
+div .bottom-right {
+    bottom: -13px;
+    right: -10px;
+    border-left: 2px red solid;
+}
+table{
+    width: 700px;
+    margin: auto;
+    background-color: #EEE;
+    border-spacing: 1px;
+}
+table td{
+    text-align: center;
+    padding: 10px;
+    border: 1px white solid;
+}
+table thead td{
+    background-color: #000000ad;
+    color: white;
+    font-weight: bold;
+    
+}
+.view-but{
+    background-color: #007eff;
+    color: white;
+    padding: 5px 10px;
+    border: 0;
+    cursor: pointer;
+
+}
+.delet-but {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: 0;
+    cursor: pointer;
+
 }
