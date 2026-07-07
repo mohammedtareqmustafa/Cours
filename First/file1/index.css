@@ -1,0 +1,162 @@
+
+/*
+    Grid
+    Parent
+    - display: grid | inline-grid
+    - grid-template-columns: [Number Of Columns In] => [Px, %, Auto, Repeat]
+    - grid-template-rows: [Number Of Rows In]=>[Px,%,Auto,Fraction,Repeat,Mix]
+    - gap: [Row Gap] [Column Gap]
+    -justify-content:
+    -align-content
+        Child
+    - grid-column: [Grid-Column-Start] [Grid-Column-End] 
+    -grid-row: [Grid-Row-Start] [Grid-Row-End]
+    - grid-area: [Grid-Row-Start] [Grid-Column-Start] [Grid-Row-End] [Grid-Column-End]
+*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* .parent {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    gap: 10px 15px;
+    grid-template-areas: "logo logo head head head head head" "cont cont cont cont cont cont cont" ;
+}
+.parent .one{
+    grid-area: logo;
+}
+.parent .two {
+    grid-area: head;
+}
+.parent .three {
+    grid-area: cont;
+}
+div {
+    text-align: center;
+    background-color: red;
+    padding: 20px;
+    font-size: 30px;
+    color: #fff;
+} */
+/* .parent .test{ */
+    /* background-color: green; */
+    /* grid-row-start: 2;
+    grid-column-start: 2;
+    grid-row-end: 5;
+    grid-column-end: 6; */
+    /* grid-area: 2 /2  /5 / 6; */
+/* } */
+/* .parent .one{
+    grid-column: 1/ span 4;
+    grid-row: span 4;
+} */
+
+/* .page{
+    height: 100vh;
+    display: grid;
+    background-color: oklab(48.388% -0.09032 0.00897);
+    color: #fff;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: 50px auto 50px;
+    grid-template-areas: "logo logo nav nav nav nav nav nav nav nav"
+    "content content content content content content sidebar sidebar sidebar sidebar"
+    "footer footer footer footer footer footer footer footer footer footer";
+}
+h2{
+    grid-area: logo;
+    background-color: green;
+    padding: 10px;
+}
+nav{
+    grid-area: nav;
+    background-color: red;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    padding: 10px;
+}
+section{
+    grid-area: content;
+    background-color: blueviolet;
+}
+aside{
+    grid-area: sidebar;
+    background-color: chocolate;
+}
+footer{
+    grid-area: footer;
+    background-color: black;
+} */
+
+/* .grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto 1fr;
+    gap: 10px;
+}
+.grid div {
+    background-color: #607d8b;
+} */
+
+/* .layout{
+    height: 100vh;
+    display: grid;
+    color: #fff;
+    background-color: black;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "head head head head head head head head head head"
+    "sec sec sec sec sec sec sec aside aside aside"
+    "footer footer footer footer footer footer footer footer footer footer";
+}
+
+header{
+    background-color: skyblue;
+    grid-area: head;
+}
+section{
+    background-color: orange;
+    grid-area: sec;
+}
+aside{
+    background-color: gray;
+    grid-area: aside;
+}
+footer{
+    background-color: greenyellow;
+    grid-area: footer;
+} */
+
+
+.parient{
+    margin: 0 20px;
+    display: grid;
+    background-color: #EEE;
+    gap: 1px 1px;
+    grid-template-columns: repeat(auto-fill ,minmax(200px,1fr)) ;
+}
+
+.parient div{
+    background-color: red;
+    color: #FFF;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    height: 100px;
+}

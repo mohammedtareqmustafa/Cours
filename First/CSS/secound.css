@@ -1,0 +1,398 @@
+*{
+    box-sizing: border-box;
+}
+
+
+/* :root{
+    --mainColor : blue;
+    --mainPadding :10px;
+}
+
+
+.main{
+    padding: var(--mainPadding);
+    margin: 10px;
+    background-color: var(--mainColor,green);
+}
+.title{
+    padding: 10px;
+    margin: var(--mainPadding);
+    border: 3px var(--mainColor,green) solid;
+    color: var(--mainColor,green);
+}
+p{
+    padding: var(--mainPadding);
+    margin: 10px;
+    color: var(--mainColor,green);
+}
+a:hover{
+    color: var(--mainColor,green);
+}
+.local{
+    --mainColor: red;
+    background-color: var(--mainColor);
+    padding: 10px;
+} */
+
+/* div{
+    background-color: #EEE !important;
+    width: 400px !important;
+    margin: 10px auto !important;
+    font-size: 20px !important;
+    border: none !important;    
+    color: #EEE !important;
+    text-align: center ;
+}
+div::before{
+    content: "Elzero";
+    color: black;
+} */
+
+/* :root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+} */
+
+/* div {
+    padding: var(--mainPadding,10px);
+    color: var(--mainColor,red);
+    border: 3px var(--mainColor,black) solid;
+    margin: 10px;
+} */
+
+/* .flex{
+    background-color: #eee;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;  
+    flex-wrap: wrap;
+}
+.flex div{
+    background-color: red;
+    width: calc(100% / 3);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+
+
+.float{
+    overflow: hidden;
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+} */
+
+/* .parint{
+    background-color: #EEE;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+}
+.parint div{
+    background-color: red;
+    width: 80px;
+    padding: 20px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 120px;
+
+} */
+
+
+/* .az{
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: orangered;
+    box-shadow: 5px 0px 0px 0 orangered,-5px 0px 0px 0 blue;
+}
+
+.parent{
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.parent div{
+    width: calc(90% / 3);
+    background-color: orangered;
+    color: whitesmoke;
+    height: 60px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+} */
+
+/* .parent{
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.parent div{
+    width: calc(94% / 3);
+    background-color: rosybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    order: 6;
+    align-self: flex-end;
+}
+.two{
+    order: 5;
+}
+.three{
+    order: 2;
+    align-self: flex-start;
+
+}
+.four{
+    order: 3;
+}
+.five{
+    order: 4;
+}
+.six{
+    order: 1;
+} */
+
+/* .parent{
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.parent div{
+    background-color: rgb(13, 158, 158);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+.parent .one{
+    align-self: flex-end;
+    width: 50px;
+}
+.parent .two {
+    align-self: flex-start;
+    width: 50%;
+}
+.parent .three {
+    align-self: flex-end;
+    width: 50px;
+} */
+
+/* .parent {
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.parent div{
+    width: 18%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    color: white;
+}
+
+.parent .one{
+    align-self: flex-start;
+    background-color: orange;
+    order: 2;
+}
+.parent .two{
+    align-self: flex-end;
+    background-color: lawngreen;
+    order: 3;
+}
+.parent .three{
+    align-self: flex-start;
+    background-color: brown;
+    order: 4;
+}
+.parent .four{
+    align-self: flex-end;
+    background-color: blueviolet;
+    order: 1;
+} */
+
+
+
+/* .page{
+    padding: 10px;
+    background-color: var(mainColor);
+}
+.page .header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.page .header .logo{
+    width: 20%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+}
+.page .header .links{
+    list-style: none;
+    width: 78%;
+    background-color: #eee;
+    padding: 10px; 
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.page .header .links li{
+    margin: 0 10px;
+}
+
+
+.page .main-area{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.page .main-area div{
+    padding: 10px;
+    background-color: #eee;
+    height: 200px;
+}
+.page .main-area .content{
+    width: 68%;
+}
+.page .main-area .sidebar {
+    width: 30%;
+}
+
+.page .footer {
+    display: flex;
+}
+.page .footer div{
+    width: 50%;
+    background-color: #eee;
+    padding: 10px;
+}
+.page .footer .design{
+    display: flex;
+    justify-content: flex-end;
+} */
+
+
+/* div img { */
+    /* transition: 0.3s; */
+    /* filter: grayscale(100%); */
+    /* filter: blur(3px); */
+    /* filter: invert(100%); */
+/* } */
+/* div img:hover{
+    filter: invert(0);
+} */
+
+/* div{
+    width: 600px;
+    height: 440px;
+    padding: 10px;
+    background-image: linear-gradient(90deg , red , green ,blue );
+} */
+
+/* .he {
+    width: 600px;
+    height: 300px;
+    background-color: #EEE;
+    margin: 50px auto;
+    position: relative;
+}
+.he::before{
+    content: "";
+    width: 100%;
+    height: 5px;
+        background-image: linear-gradient(to right, red, red 33%, blue 33%, blue 66%, green 66%, green );
+    position: absolute;
+    top: -10px;
+}
+input{
+    caret-color: blue;
+    
+}
+a{
+    pointer-events: all;
+} */
+/* div{
+    width: 600px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #eee;
+    font-weight: bold;
+    text-align: center;
+    border: 3px red solid;
+}
+div::first-letter{
+    color: red;
+} */
+
+
+/* div input{
+    background-color: #eee;
+    width: 600px;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    caret-color: red;
+    outline: none;
+}
+div{
+    position: relative;
+    width: 600px;
+    margin: 20px auto;
+}
+div::before{
+    content: "";
+    width: 600px;
+    height: 3px;
+    background-image: linear-gradient(to right, red 50%,red 50%,green 50%);
+    position: absolute;
+    bottom: 8px;
+    right: -10px;
+} */
+

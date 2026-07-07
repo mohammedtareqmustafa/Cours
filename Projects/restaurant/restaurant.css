@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+}
+
+header {
+    height: 100vh;
+    position: relative;
+    background: url(/restaurant/img/home_bg.jpeg) center center /cover no-repeat;
+}
+header *{
+    z-index: 10;
+}
+header::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgb(0, 0, 0 ,0.6);
+}
+
+header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navbar img{
+    width: 80px;
+    margin-left: 100px;
+}
+
+header .navbar nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+header .navbar nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    font-weight: 600;
+}
+
+header .navbar nav ul li a:hover{
+    border-bottom: 2px solid #e4b95d;
+}
+
+header .content{
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header .content h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+header .content h1 span{
+    color: #e4b95d;
+}
+
+header .content p{
+    font-weight: 600;
+    margin: 20px 0 40px 0;
+    color: #fff;
+}
+
+header .content a{
+    text-decoration: none;
+    padding: 15px 40px ;
+    color: #fff;
+    border: 1px #fff solid;
+    border-radius: 20px;
+    font-weight: 600;
+}
+header .content a:hover{
+    background-color: #e4b95d;
+    color: black;
+}
+
+
+
+section{
+    height: 80vh;
+    display: flex;
+        align-items: center;
+}
+
+section .container{
+    margin: 0 100px;
+}
+
+section .container .titel{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+section .container .titel h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #383848;
+}
+
+section .container .titel p{
+    font-weight: 600;
+    color: #9a9a9a;
+}
+
+section .container .content{
+    display: flex;
+    justify-content: space-between;
+}
+
+section .container .content .content-text{
+    width: 40%;
+}
+
+section .container .content .content-text p {
+    color: #9a9a9a;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+section .container .content .content-text a {
+    color: #fff;
+    text-decoration: none;
+    background-color:#383848;
+    padding: 15px 30px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+section .container .content .content-text a:hover{
+    background-color: #e4b95d;
+}
+
+section .container .content-img img{
+    width: 450px;
+}
+
+
+
+.section{
+    background-image: url(/restaurant/img/offer-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.section .container{
+    margin: 0 100px;
+
+}
+
+.section .container .titel{
+    text-align: center;
+}
+
+.section .container .titel h2{
+    color: #e4b95d;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.section .container .titel p {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.section .container .offers-content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: #fff;
+}
+.section .container .offers-content img{
+    width: 200px;
+}
+
+.section .container .offers-content h3{
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.section .container .offers-content p{
+    font-size: 14px;
+    padding: 5px 20px;
+    font-weight: 300;
+}
+.section .container .offers-content p span{
+    color: #e4b95d;
+    font-weight: 700;
+}
+
+
+
+#menu{
+    padding: 3rem;
+}
+
+#menu .contenar{
+    margin: 0 150px;
+    height: 110vh;
+}
+
+#menu .contenar .titel {
+    text-align: center;
+        
+}
+
+
+#menu .contenar .titel h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #383848;
+}
+
+#menu .contenar .titel p{
+    color: #9a9a9a;    
+    font-weight: 400;
+}
+
+#menu .contenar .menu-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#menu .contenar .menu-item .menu-left .item{
+    display: flex;
+    width: 500px;
+    padding: 10px;
+    position: relative;
+    box-shadow: 0 0 0 0 inset;
+}
+
+#menu .contenar .menu-item .menu-left .item img{
+    width: 90px;
+    margin-right: 20px;
+}
+
+#menu .contenar .menu-item .menu-left .item h3{
+    padding: 5px;
+    margin-bottom: 10px;
+    border-bottom:1px #9a9a9a solid;
+}
+
+#menu .contenar .menu-item .menu-left .item::after{
+    content: "$18.00";
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: 800;
+    color: #e4b95d;
+}
+
+#menu .contenar button{
+    text-decoration: none;
+    display:block;
+    border: none;
+    font-size: 16px;
+    padding: 13px 20px;
+    background-color: #e4b95d;
+    border-radius: 10px;
+    color: #fff;
+    margin: 20px auto;
+    cursor: pointer;
+}
+#menu .contenar button:hover{
+    background-color:#383848 ;
+}
+
+
+
+.day-time{
+    background-image: url(/restaurant/img/daytime_bg.jpeg);
+    height: 40vh;
+}
+
+.day-time .contaunar{
+    margin: 0 150px;
+    
+}
+
+.day-time .contaunar .times{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40vh;
+    color: #fff;
+}
+
+.day-time .contaunar .times div{
+    text-align: center;
+}
+
+.day-time .contaunar .times div img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.day-time .contaunar .times div h3{
+    font-size: 30px;
+}
+
+
+.galleary{
+    background-image: url(/restaurant/img/);
+}
+
+
+
+.galleary{
+    background: url(/restaurant/img/offer-background.jpg) center center/cover no-repeat;
+    padding: 8rem 0 6rem;
+}
+
+.galleary .contaunar{
+    margin: 0 180px;
+}
+
+.galleary .contaunar h1{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.galleary .contaunar .galleary-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.galleary .contaunar .galleary-items img{
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 20px;
+    opacity: 0.8;
+}
+
+.galleary .contaunar .galleary-items img:hover{
+    opacity: 1;
+}
+
+
+.contact-us .contanar{
+    margin: 0 150px;
+    padding: 8rem 0  4rem;
+}
+
+.contact-us .contanar .contact-abute{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-us .contanar .contact-abute .about{
+    width: 50%;
+}
+
+.contact-us .contanar .contact-abute .about div{
+    padding: 15px;
+    margin-bottom: 5px;
+    line-height: 1.6;
+}
+
+.contact-us .contanar .contact-abute .about div h3{
+    font-size: 35px;
+    color: #383848;
+}
+
+.contact-us .contanar .contact-abute .about div p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #9a9a9a;
+}
+.contact-us .contanar .contact-abute .about div p span{
+    margin-right: 4px;
+    color: #e4b95d;
+}
+
+.contact-us .contanar .contact-abute .about div a{
+    color: #383848;
+    font-size: 30px;
+    padding: 10px;
+    background-color: #383848;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.contact-us .contanar .contact-abute .about div a:hover{
+    background-color: #e4b95d;
+    color: #383848;
+}
+
+.contact-us .contanar .contact{
+    width: 50%;
+}
+
+.contact-us .contanar .contact form input,
+.contact-us .contanar .contact form textarea{
+    width: 100%;
+    padding: 20px 15px;
+    margin: 15px 0;
+    background-color: #e3e2dd;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    display: block;
+}
+
+.contact-us .contanar .contact form .btn{
+    width: 200px;
+    background-color: #e4b95d;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    display:block;
+}
+
+.contact-us .contanar .contact form .btn:hover{
+    background-color: #383848;
+    
+}

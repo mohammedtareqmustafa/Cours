@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#home{
+    height: 100vh;
+    background-color: #0162de;
+    color: #FFF;
+}
+
+.container {
+    margin: 0 7rem;
+    height: 100vh; 
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+nav .logo{
+    width: 50px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: #FFF;
+}
+nav ul li a:hover{
+    color: red;
+}
+
+#home .container .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70%;
+}
+
+#home .container .content .content-text h1{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+#home .container .content .content-text h1 span{
+    font-size: 70px;
+}
+#home .container .content .content-text p{
+    font-weight: 300;
+    margin-bottom: 30px;
+    line-height: 1.4;
+    width: 60%;
+}
+
+.btn{
+    font-size: 14px;
+    padding: 10px 15px;
+    background-color: #FFF;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    transition: all .4  s;
+}
+.btn:hover{
+    background-color: transparent;
+    color: #FFF;
+    border: 1px solid #FFF;
+}
+
+.container .content .pepsiImg img {
+    width: 220px;
+    animation: animation1 1s ease-out;
+}
+
+.container .content .social{
+    margin-left: 3rem;
+
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+}
+
+.social i{
+    color: #FFF;
+    margin: 10px 0;
+    font-size: 25px;
+    animation: animation1 1s ease-out;
+}
+.container .img-footar{
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    animation: animation2 1s ease-out;
+}
+
+@keyframes animation1 {
+    
+    0%{
+        transform: translateX(500px);
+    }
+
+    100%{
+        transform: translateX(0px);
+    }
+}
+@keyframes animation2 {
+    0%{
+        transform: translateY(300px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+/* Tablet */
+@media (max-width : 900px) {
+    .container{
+        margin: 0 1rem;
+    }
+    nav ul li a{
+        padding: 10px;
+    }
+    #home .container .content{
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 0 0;
+    }
+    #home .container .content .content-text p{
+        width: 100%;
+    }
+    #home .container .content .content-text{
+        margin-bottom: 2rem;
+    }
+    .container .content .pepsiImg img{
+        width: 100px;
+        margin-bottom: 10px;
+    }
+    .social{
+        margin-left: 0;
+        margin-right: 50px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    .container .img-footar{
+        margin-top: 50px;
+    }
+}

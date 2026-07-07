@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#home .contanar{
+    height: 100vh;
+    margin: 0 150px;
+    padding: 100px 0;
+    background-color: #eee;
+}
+
+#home .contanar .titel{
+    font-size: 30px;
+    
+}
+
+#home .contanar .titel h1{
+    position: relative;
+    text-align: center;
+}
+
+#home .contanar .titel h1::after{
+    content: "";
+    position: absolute;
+    width: 24%;
+    height: 5px;
+    background-color: red;
+    bottom: -10px;
+    left: 38%;
+}
+
+#home .contanar .content div{
+    background-color: #FFF;
+    margin: 0 1rem;
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px -1px;
+}
+
+#home .contanar .content {
+    display: flex;
+    text-align: center;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home .contanar .content div img{
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+#home .contanar .content div h3{
+    font-size: 25px;
+    padding: 10px;
+}
+
+#home .contanar .content div i{
+    margin-bottom: 10px;
+    color: red;
+    cursor: pointer;
+}
+#home .contanar .content div p{
+    padding: 15px;
+    line-height: 1.4;
+    font-size: 14px;
+}
+

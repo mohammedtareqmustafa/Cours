@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
+body{
+    font-family: "Bitcount Prop Single", system-ui;
+    overflow: hidden;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    height: 100vh;
+    background-color: #0162de;
+}
+
+#main .contenar{
+    margin: 0 7rem;
+    height: 100vh;
+}
+
+#main .contenar nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+nav img{
+    width: 50px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+nav ul li a:hover{
+    color: #ff1737;
+}
+
+#main .contenar .content{
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main .contenar .content .content-text::selection{
+    background-color: #ff1737;
+}
+
+#main .contenar .content .content-text h1{
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#main .contenar .content .content-text h1 span{
+    font-size: 70px;
+    font-weight: 800;
+}
+#main .contenar .content .content-text p{
+    color: #FFF;
+    font-weight: 300;
+    width: 60%;
+    margin-bottom: 25px;
+}
+
+#main .contenar .content .content-text a{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 15px 20px;
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+#main .contenar .content .content-text a:hover{
+    background-color: #FFF;
+}
+
+#main .contenar .content .content-img img{
+    width: 220px;
+    animation: animation1 1s ease-out;
+
+}
+
+#main .contenar .content .siochil{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+#main .contenar .content .siochil a{
+    color: #FFF;
+    font-size: 25px;
+    margin-top: 10px;
+    animation: animation1 1s ease-out;
+}
+
+#main .contenar .footar img{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    animation: animation2 1s ease-out;
+}
+
+@keyframes animation1 {
+    0%{
+        transform: translateX(500px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+@keyframes animation2 {
+    0%{
+        transform: translatey(300px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+@media (max-width : 900px) {
+
+    #main .contenar{
+        margin: 0 1rem;
+    }
+    #main .contenar nav{
+        padding: 15px 0;
+    }
+    nav ul li{
+    padding: 10px;
+    }
+    #main .contenar .content{
+        flex-direction: column;
+    }
+    #main .contenar .content .content-text h1{
+        width: 100%;
+        text-align: center;
+    }
+    #main .contenar .content .content-text p{
+        width: 100%;
+        text-align: center;
+    }
+    #main .contenar .content .content-text a{
+        display: block;
+        width: 210px;
+        margin: 10px auto;
+    }
+    #main .contenar .content .content-img img{
+        width: 120px;
+    }
+    #main .contenar .footar img{
+        width: 100px;
+        margin-top: 20px;
+    }
+
+    
+
+}
